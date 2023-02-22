@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,500&display=swap');
+body{
+    background-color:saddlebrown;
+}
+.clg-name{
+    font-size: 30px;
+    color:cadetblue;
+    font-family:labrada;
+    padding-left: 20px;
+}
+nav{
+    background-color: whitesmoke;
+    
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+.attributes{
+    list-style: none;
+    display: flex;
+    padding-bottom: 0px;
+    align-items:baseline;
+    
+    
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clg-pic{
+    padding: 20px 10px 20px 20px;
+    margin-left: 15%;
+    display: block;
+}
+.message{
+    background-color: gainsboro;
+    padding: 20px 10px 20px 20px;
+    margin: 20px 10px 20px 20px;
+    
+}
+.announcements{
+    background-color: gainsboro;
+    padding: 20px 10px 20px 20px;
+    margin: 20px 10px 20px 20px;
+    
+}
+.date1{
+    background-color: blue;
+    color: white;
+}
+.events{
+    margin-left: 200px;
+    background-color: gainsboro;
+    
+}
+.eve1{
+    width: 250px;
+}
+.eve2{
+    width: 250px;
+
+}
+td{
+    padding: 20px;
+}
+.special{
+    
+    margin-left: 200px;
+        background-color: gainsboro;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  .clg-pic:hover{
+    opacity: 0.7;
+    
+  }
+ .bn{
+    margin-left: 600px;
+    width: 300px;
+    height: 80px;
+    border-radius: 15px;
+    font-family: labrada;
+    background-color: aquamarine;
+ }
+
+ #Contact{
+    width: 300px;
+    margin-left: 41%;
+    background-color: gainsboro;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+ }
+ td{
+    border-radius: 15px;
+ }
+ div{
+    border-radius: 15px;
+ }
+
